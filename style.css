@@ -882,6 +882,9 @@ margin-bottom: 20px;
 
 
 @media screen and (max-width:600px) {
+    .navbar__s1{
+        width: 20%;
+    }
 
     .navbar__s2{
         display: none;
@@ -895,27 +898,13 @@ margin-bottom: 20px;
    bottom: 500px;
     }
    .search__s2{
-    left: 40px;
+    left: 20px;
     bottom: 400px;
-    width: 80%;
+    width: 90%;
    
    }
    .categories{
-    width: 80%;
-    
-    left: 20px;
-    right: 10px;
-    bottom: 250px;
-   }
-   .images{
-    width: 40%;
-   }
-   .images img{
-
-    width: 4px;
-    height: 4px;
-    display: flex;
-   
+   display: none;
    }
    .type{
     display: none;
@@ -927,9 +916,6 @@ margin-bottom: 20px;
    .introduce{
     display: none;
    }
- 
-
-
 }
 
 
