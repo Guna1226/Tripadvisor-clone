@@ -925,6 +925,16 @@ margin-bottom: 20px;
     flex-grow: 2;
     align-items: center;
    }
+   .collection__grid{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+   }
+   .place{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+   }
    .icon{
     flex-direction: column;
     flex-grow: 2;
