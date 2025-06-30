@@ -883,6 +883,9 @@ margin-bottom: 20px;
 
 
 @media screen and (max-width:600px) {
+    *{
+        box-sizing: border-box;
+    }
     .navbar__s1{
         width: 20%;
     }
@@ -916,6 +919,16 @@ margin-bottom: 20px;
    }
    .introduce{
     display: none;
+   }
+   .things-card{
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+   }
+   .icon{
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
    }
 }
 
