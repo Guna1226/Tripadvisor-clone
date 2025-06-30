@@ -336,7 +336,7 @@ position: relative;
 }
 
 .things{
- padding: 50px;
+ padding: 40px 20px;
 }
 .things-card{
 padding: 10px;
@@ -605,6 +605,7 @@ box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     border-radius: 10px;
     overflow: hidden;
     transition: .2s;
+    
 }
 .collection__card:hover{
   transform: scale(1.1);
